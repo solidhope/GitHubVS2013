@@ -1,13 +1,33 @@
 ﻿Public Class Form1
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        ' command for ping
+        If My.Computer.Network.Ping("") Then
+
+            ' colors
+            Button7.BackColor = Color.Green
+
+        Else
+
+            Button9.BackColor = Color.Red
+
+        End If
 
     End Sub
 
-    Private Sub ToolStripStatusLabel1_Click(sender As Object, e As EventArgs) Handles ToolStripStatusLabel1.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+        If My.Computer.Network.Ping("") Then
+
+            Button7.BackColor = Color.Green
+
+        Else
+
+            Button9.BackColor = Color.Red
+
+        End If
 
     End Sub
-
 
 End Class
