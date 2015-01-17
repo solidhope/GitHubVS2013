@@ -173,7 +173,6 @@ Partial Class Form1
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(127, 23)
         Me.Button11.TabIndex = 30
-        Me.Button11.Text = "Button11"
         Me.Button11.UseVisualStyleBackColor = True
         '
         'Button12
@@ -182,7 +181,6 @@ Partial Class Form1
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(127, 23)
         Me.Button12.TabIndex = 31
-        Me.Button12.Text = "Button12"
         Me.Button12.UseVisualStyleBackColor = True
         '
         'Button13
@@ -191,7 +189,6 @@ Partial Class Form1
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(127, 23)
         Me.Button13.TabIndex = 32
-        Me.Button13.Text = "Button13"
         Me.Button13.UseVisualStyleBackColor = True
         '
         'Button14

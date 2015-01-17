@@ -3,14 +3,15 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         ' command for ping
-        If My.Computer.Network.Ping("") Then
+        If My.Computer.Network.Ping("192.168.1.1") Then
 
-            ' colors
-            Button7.BackColor = Color.Green
+            ' green = good
+            Button11.BackColor = Color.Green
 
         Else
 
-            Button9.BackColor = Color.Red
+            ' red = bad
+            Button11.BackColor = Color.Red
 
         End If
 
@@ -18,13 +19,27 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        If My.Computer.Network.Ping("") Then
+        If My.Computer.Network.Ping("192.168.1.2") Then
 
-            Button7.BackColor = Color.Green
+            Button12.BackColor = Color.Green
 
         Else
 
-            Button9.BackColor = Color.Red
+            Button12.BackColor = Color.Red
+
+        End If
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+        If My.Computer.Network.Ping("192.168.1.3") Then
+
+            Button13.BackColor = Color.Green
+
+        Else
+
+            Button13.BackColor = Color.Red
 
         End If
 
